@@ -7,3 +7,6 @@ www.andysayler.com
 With code from:
 http://www.pcduino.com/?p=878
 
+Prereqs:
++ pcDuino C Environemnt needs to be build at ../pcDuino-c
+  See https://github.com/pcduino/c_environment
