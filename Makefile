@@ -18,7 +18,7 @@ INCS = -I.\
 LIBS=$(DIR)/libarduino.a
 TARGET=.
 
-OBJS = mq2-sample
+OBJS = mq2-sample mq2-alarm
 
 all: 
 	@mkdir -p $(TARGET)
