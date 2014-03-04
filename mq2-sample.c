@@ -3,7 +3,7 @@
 **********************************************/
 #include <core.h>
  
-const int analogInPin =0;
+const int analogInPin = 0;
  
 int sensorValue = 0;        // value read from the pot
 int count1;
