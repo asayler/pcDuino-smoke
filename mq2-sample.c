@@ -9,7 +9,7 @@ int sensorValue = 0;        // value read from the pot
 int count1;
  
 void setup() {
-  pinMode(7, OUTPUT);  
+  pinMode(analogInPin, INPUT);  
 }
  
 void loop() {
