@@ -5,6 +5,9 @@ www.andysayler.com
 03/2014
 
 See the alternate branches for access to code:
-    $ git branch <branch_name>
+    $ git checkout -b <branch_name> <upstream_name>
 
-Branchs:
+Branches:
+  master    - Just this README
+  mq2-base  - Basic smoke sensor code
+  mq2-alarm - Basic smoke alarm code
