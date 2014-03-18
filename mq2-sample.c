@@ -2,25 +2,17 @@
    05/09/2013
 **********************************************/
 #include <core.h>
- 
+
 const int analogInPin = 0;
- 
-int sensorValue = 0;        // value read from the pot
-int count1;
- 
+
 void setup() {
-  pinMode(7, OUTPUT);  
+    // No Digital Pins to Setup
 }
- 
+
 void loop() {
- 
-  count1++;
-  // read the analog in value:
-  sensorValue = analogRead(analogInPin);            
- 
-  if(count1==3000)
-    {
-      count1 = 0;
-      printf("sensor=%d\n", sensorValue);
-    }
+
+  int sensorValue = analogRead(analogInPin);
+  printf("sensor = %d\n", sensorValue);
+  delay(100);
+
 }
