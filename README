@@ -4,5 +4,7 @@ University of Colorado, Boulder
 www.andysayler.com
 03/2014
 
-With code from:
-...
+See the alternate branches for access to code:
+    $ git branch <branch_name>
+
+Branchs:
